@@ -1,9 +1,9 @@
-import { Header } from './components'
+import { Home } from './components'
 
-export default function Home() {
+export default function Page() {
   return (
-    <main>
-      <Header />
-    </main>
+    <section id="home">
+      <Home />
+    </section>
   )
 }
