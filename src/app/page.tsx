@@ -1,4 +1,4 @@
-import { About, Home } from './components'
+import { About, Features, Home } from './components'
 
 export default function Page() {
   return (
@@ -8,6 +8,9 @@ export default function Page() {
       </section>
       <section id="about">
         <About />
+      </section>
+      <section id="features">
+        <Features />
       </section>
     </>
   )

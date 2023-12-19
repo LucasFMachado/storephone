@@ -1,4 +1,6 @@
+export * from './cards/FeatureCard'
 export * from './layout/Button'
 export * from './layout/Header'
 export * from './sections/About'
+export * from './sections/Features'
 export * from './sections/Home'
