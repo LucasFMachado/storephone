@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'contact-image': "url('/images/contact.jpg')",
+      },
       colors: {
         'bright-color': '#3D30A2',
         'background-color': '#7071E8',
