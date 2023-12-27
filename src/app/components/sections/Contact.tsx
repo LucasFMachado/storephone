@@ -2,12 +2,12 @@ import { Button } from '..'
 
 export function Contact() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center px-5 lg:px-32 bg-contact-image bg-no-repeat bg-cover opacity-80">
-      <h1 className="text-4xl font-semibold mt-24 lg:mt-10 text-center lg:text-start text-white">
+    <div className="min-h-screen flex flex-col items-center justify-center responsive bg-contact-image bg-no-repeat bg-cover opacity-80">
+      <h1 className="text-4xl font-semibold mt-24 md:mt-0 text-white">
         Contact us
       </h1>
       <form className="text-white mt-10 w-full">
-        <div className="flex flex-col lg:flex-row gap-8 lg:justify-between">
+        <div className="flex flex-col md:flex-row gap-8 lg:justify-between">
           <div className="w-full">
             <input
               id="firstName"
@@ -25,7 +25,7 @@ export function Contact() {
             />
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row gap-8 lg:justify-between mt-8 lg:mt-4">
+        <div className="flex flex-col md:flex-row gap-8 lg:justify-between mt-8 lg:mt-4">
           <div className="w-full">
             <input
               id="email"

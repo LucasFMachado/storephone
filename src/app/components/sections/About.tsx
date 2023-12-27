@@ -2,13 +2,13 @@ import { HiCheckBadge } from 'react-icons/hi2'
 
 export function About() {
   return (
-    <div className="min-h-screen flex flex-col lg:flex-row items-center justify-between px-5 pt-6 lg:px-32">
+    <div className="min-h-screen flex flex-col md:flex-row items-center justify-between px-5 pt-6 md:px-12 lg:px-32">
       <div>
         <img src="/images/about.png" alt="About image" />
       </div>
       <div className="w-full lg:w-2/4 space-y-4">
         <h1 className="text-4xl font-semibold">About our products</h1>
-        <h2 className="text-2xl font-medium pt-4">
+        <h2 className="text-2xl font-medium">
           Experience audio redefined. Our headsets deliver quality, comfort and
           style in every note.
         </h2>

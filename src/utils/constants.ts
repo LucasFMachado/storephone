@@ -1,4 +1,4 @@
-import { HeaderLinkType } from './types'
+import { FaqContentType, HeaderLinkType } from './types'
 
 export const headerLinks: HeaderLinkType[] = [
   {
@@ -24,5 +24,33 @@ export const headerLinks: HeaderLinkType[] = [
   {
     path: 'faq',
     name: 'Faq',
+  },
+]
+
+export const faqContent: FaqContentType[] = [
+  {
+    title: 'This is first question',
+    description:
+      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat doloremque voluptatum assumenda.',
+  },
+  {
+    title: 'This is first question',
+    description:
+      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat doloremque voluptatum assumenda.',
+  },
+  {
+    title: 'This is first question',
+    description:
+      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat doloremque voluptatum assumenda.',
+  },
+  {
+    title: 'This is first question',
+    description:
+      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat doloremque voluptatum assumenda.',
+  },
+  {
+    title: 'This is first question',
+    description:
+      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat doloremque voluptatum assumenda.',
   },
 ]
