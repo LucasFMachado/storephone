@@ -14,7 +14,7 @@ export function Home() {
         </p>
         <Button label="Order Now" />
       </div>
-      <div className=" mt-10">
+      <div className="mt-10">
         <img src="/images/hero.png" alt="Hero image" />
       </div>
     </div>

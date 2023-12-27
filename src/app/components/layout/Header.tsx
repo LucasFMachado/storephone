@@ -30,7 +30,7 @@ export function Header() {
                 spy
                 smooth
                 duration={500}
-                className=" hover:text-bright-color transition-all cursor-pointer"
+                className="hover:text-bright-color transition-all cursor-pointer"
               >
                 {link.name}
               </Link>
@@ -66,7 +66,7 @@ export function Header() {
               smooth
               duration={500}
               onClick={handleCloseMenu}
-              className=" hover:text-bright-color transition-all cursor-pointer"
+              className="hover:text-bright-color transition-all cursor-pointer"
             >
               {link.name}
             </Link>
